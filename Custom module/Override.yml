@@ -1,0 +1,9 @@
+public static function defaultFieldSettings() {
+  return [
+    // Declare a single setting, 'size', with a default
+    // value of 'large'
+    'size' => 'large',
+  ] + parent::defaultFieldSettings();
+}
+
+
